@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Priyanka &amp; Sakti – Wedding Invitation</title>
+<meta name="description" content="You are cordially invited to the wedding of Priyanka &amp; Sakti, 12–13 December 2026, SR CROWN, Bhubaneswar.">
+<meta property="og:title" content="Priyanka &amp; Sakti – Wedding Invitation">
+<meta property="og:image" content="assets/images/couple-portrait-night.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Cinzel:wght@500;700&family=Noto+Serif+Devanagari:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="locked">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></symbol>
+ <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z" fill="none" stroke="currentColor" stroke-width="1.8"/><path transform="translate(6.2 6) scale(.5)" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></symbol>
+ <symbol id="ganesha" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#c9a24b" stroke-width="2"/><circle cx="60" cy="60" r="50" fill="none" stroke="#c9a24b" stroke-dasharray="2 4"/>
+  <path d="M38 34 60 14 82 34 82 40H38z" fill="#c9a24b"/><circle cx="60" cy="24" r="4" fill="#8b1e2d"/>
+  <ellipse cx="32" cy="62" rx="16" ry="24" fill="#e8c978" stroke="#8b1e2d"/><ellipse cx="88" cy="62" rx="16" ry="24" fill="#e8c978" stroke="#8b1e2d"/>
+  <ellipse cx="60" cy="58" rx="24" ry="26" fill="#f0a64a" stroke="#8b1e2d" stroke-width="1.5"/>
+  <circle cx="51" cy="52" r="3" fill="#3b0d14"/><circle cx="69" cy="52" r="3" fill="#3b0d14"/><path d="M52 42h16" stroke="#8b1e2d" stroke-width="2"/>
+  <path d="M60 56c0 18-4 30-14 34-8 3-12-4-6-8" fill="none" stroke="#e08a2e" stroke-width="10" stroke-linecap="round"/>
+  <path d="M68 74q8 10 2 18" fill="none" stroke="#fff6dd" stroke-width="4" stroke-linecap="round"/>
+ </symbol>
+</svg>
+
+<!-- Envelope intro -->
+<div id="intro" role="dialog" aria-label="Wedding invitation envelope">
+ <div class="envelope" id="envelope">
+  <div class="env-card"><svg class="gan"><use href="#ganesha"/></svg><p class="cinzel">Wedding Invitation</p><h2>Priyanka &amp; Sakti</h2></div>
+  <div class="env-back"></div><div class="env-flap"></div>
+  <div class="env-front">
+   <svg class="gan"><use href="#ganesha"/></svg>
+   <p class="cinzel">Wedding Invitation</p><h1>PRIYANKA &amp; SAKTI</h1><p class="serif-i">You are cordially invited</p>
+  </div>
+ </div>
+ <button id="openBtn" class="btn gold">OPEN INVITATION</button>
+</div>
+
+<header class="nav">
+ <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu">☰</button>
+ <nav id="menu" aria-label="Sections">
+  <a href="#home">Home</a><a href="#couple">Couple</a><a href="#events">Events</a><a href="#gallery">Gallery</a><a href="#venue">Venue</a><a href="#contact">Contact</a>
+ </nav>
+</header>
+<button id="musicBtn" class="fab music" aria-label="Turn music on" aria-pressed="false">♪</button>
+<button id="topBtn" class="fab top" aria-label="Back to top">↑</button>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<main>
+<section id="home" class="hero">
+ <div class="invoc">
+  <svg class="gan gan-top" aria-hidden="true"><use href="#ganesha"/></svg>
+  <p class="dev">ॐ श्री श्री गणेशाय नमः</p>
+  <p class="rom">Om Shree Shree Ganeshaya Namah</p>
+  <span class="orn" aria-hidden="true">❖</span>
+  <p class="dev">वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br>निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥</p>
+  <p class="rom">Vakratunda Mahakaya Suryakoti Samaprabha,<br>Nirvighnam Kuru Me Deva Sarva-Karyeshu Sarvada</p>
+ </div>
+ <p class="serif-i reveal">Together with their families</p>
+ <figure class="arch reveal"><img src="assets/images/couple-portrait-night.jpg" alt="Priyanka and Sakti together" width="1006" height="1512" fetchpriority="high"></figure>
+ <h1 class="names reveal">PRIYANKA<span>&amp;</span>SAKTI</h1>
+ <p class="serif-i reveal">Two hearts, one beautiful journey, and a lifetime of togetherness.</p>
+ <div class="petals" aria-hidden="true"></div>
+</section>
+
+<section id="couple" class="sec">
+ <h2 class="title">The Couple</h2>
+ <div class="pair">
+  <article class="person reveal"><figure class="frame"><img loading="lazy" src="assets/images/bride-priyanka-portrait.jpg" alt="Priyanka" width="1006" height="1512"></figure>
+   <h3>Priyanka</h3><p>Daughter of<br>Shri Simanchala Mishra &amp; <br>the late Smt. Rajeswari Mishra<br>Ankuli, Berhampur</p></article>
+  <article class="person reveal"><figure class="frame"><img loading="lazy" src="assets/images/groom-sakti-portrait.jpg" alt="Sakti" width="1006" height="1512"></figure>
+   <h3>Sakti</h3><p>Younger son of<br>Smt. Kanaklata Mallick &amp; Shri Niranjan Mallick<br>Kesora, Bhubaneswar</p></article>
+ </div>
+</section>
+
+<section class="sec dark" aria-labelledby="cdT">
+ <h2 class="title" id="cdT">Counting Down to 13 December 2026</h2>
+ <div id="countdown" class="cd" role="timer" aria-live="off">
+  <div><b id="cd-d">00</b><span>Days</span></div><div><b id="cd-h">00</b><span>Hours</span></div><div><b id="cd-m">00</b><span>Minutes</span></div><div><b id="cd-s">00</b><span>Seconds</span></div>
+ </div>
+ <p id="cdDone" class="serif-i" hidden>Today is the day – please join us as we begin our new life together.</p>
+</section>
+
+<section id="events" class="sec">
+ <h2 class="title">Wedding Events</h2>
+ <div class="events">
+  <article class="card reveal"><div class="ico">🪔</div><h3>Haldi &amp; Mangalkrutya</h3><p class="date">Saturday, 12th December 2026</p>
+   <a class="btn small" href="#" data-cal="haldi">Add to Google Calendar</a></article>
+  <article class="card reveal"><div class="ico">🔥</div><h3>Marriage &amp; Panigrahan</h3><p class="date">Sunday, 13th December 2026</p>
+   <a class="btn small" href="#" data-cal="marriage">Add to Google Calendar</a></article>
+  <article class="card reveal hl"><div class="ico">🪷</div><h3>Reception</h3><p class="date">Sunday, 13th December 2026</p><p class="dinner">Dinner from 7:30 PM onwards</p>
+   <a class="btn small" href="#" data-cal="reception">Add to Google Calendar</a></article>
+ </div>
+ <button id="icsBtn" class="btn gold">Download calendar (.ics)</button>
+</section>
+
+<section id="gallery" class="sec dark">
+ <h2 class="title">Our Moments</h2>
+ <div class="gal" id="gal">
+  <button class="g" aria-label="Open photo: Priyanka"><img loading="lazy" src="assets/images/bride-priyanka-portrait.jpg" alt="Priyanka in an ivory lehenga under lamplight" width="1006" height="1512"></button>
+  <button class="g" aria-label="Open photo: bouquet moment"><img loading="lazy" src="assets/images/couple-bouquet-moment.jpg" alt="Sakti presenting a bouquet to Priyanka" width="1512" height="1006"></button>
+  <button class="g" aria-label="Open photo: Sakti"><img loading="lazy" src="assets/images/groom-sakti-portrait.jpg" alt="Sakti in a navy blazer" width="1006" height="1512"></button>
+  <button class="g" aria-label="Open photo: the couple"><img loading="lazy" src="assets/images/couple-portrait-night.jpg" alt="Priyanka and Sakti portrait at night" width="1006" height="1512"></button>
+  <button class="g" aria-label="Open photo: Sakti"><img loading="lazy" src="assets/images/couple-ring.jpg" alt="Sakti in a navy blazer" width="1006" height="1512"></button>
+  <button class="g" aria-label="Open photo: the couple"><img loading="lazy" src="assets/images/couple-ringg.jpg" alt="Priyanka and Sakti portrait at night" width="1006" height="1512"></button>
+ </div>
+</section>
+
+<div id="lb" class="lb" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+ <button class="lbx" id="lbClose" aria-label="Close">✕</button>
+ <button class="lbn prev" id="lbPrev" aria-label="Previous photo">‹</button>
+ <img id="lbImg" alt="">
+ <button class="lbn next" id="lbNext" aria-label="Next photo">›</button>
+</div>
+
+<section id="venue" class="sec">
+ <h2 class="title">Venue</h2>
+ <p class="venue-n">SR CROWN</p>
+ <address>Cuttack Puri Bypass Road,<br>Bhubaneswar, Odisha, India.</address>
+ <div class="map"><iframe title="Map of SR CROWN, Bhubaneswar" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps?q=SR+CROWN+Cuttack+Puri+Bypass+Road+Bhubaneswar+Odisha+India&amp;output=embed"></iframe></div>
+ <div class="row">
+  <a class="btn gold" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=SR+CROWN+Cuttack+Puri+Bypass+Road+Bhubaneswar+Odisha+India">Get Directions</a>
+  <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=SR+CROWN+Cuttack+Puri+Bypass+Road+Bhubaneswar+Odisha+India">Open in Google Maps</a>
+ </div>
+</section>
+
+<section class="sec dark family">
+ <p class="serif-i">With warm regards and heartfelt invitation</p>
+ <h2 class="host">Shri Simanchala Mishra</h2>
+ <p class="serif-i">Awaiting your gracious presence</p>
+ <p class="cinzel small-c">Best Compliments From</p><p class="serif">Family &amp; Relatives</p>
+</section>
+
+<section id="contact" class="sec">
+ <h2 class="title">Contact the Family</h2>
+ <div class="pair contacts">
+  <article class="card"><h3>Priyanka (Bride)</h3><p class="num">Phone: 6370500704</p>
+   <div class="row"><a class="btn gold" href="tel:6370500704"><svg><use href="#i-phone"/></svg>Call Now</a>
+   <a class="btn" target="_blank" rel="noopener" href="https://wa.me/916370500704?text=Hello!%20I%20am%20contacting%20you%20regarding%20the%20wedding%20invitation%20of%20Priyanka%20%26%20Sakti."><svg><use href="#i-wa"/></svg>WhatsApp</a></div></article>
+  <article class="card"><h3>Raja</h3><p class="num">Phone: 8280136113</p>
+   <div class="row"><a class="btn gold" href="tel:8280136113"><svg><use href="#i-phone"/></svg>Call Now</a>
+   <a class="btn" target="_blank" rel="noopener" href="https://wa.me/918280136113?text=Hello!%20I%20am%20contacting%20you%20regarding%20the%20wedding%20invitation%20of%20Priyanka%20%26%20Sakti."><svg><use href="#i-wa"/></svg>WhatsApp</a></div></article>
+ </div>
+</section>
+
+<section class="sec closing">
+ <figure class="frame wideframe reveal"><img loading="lazy" src="assets/images/couple-bouquet-moment.jpg" alt="Priyanka and Sakti sharing a joyful moment" width="1512" height="1006"></figure>
+ <p class="serif-i">Your presence and blessings will make our celebration even more special.</p>
+ <p class="serif">With love,</p><h2 class="sign">Priyanka &amp; Sakti</h2>
+ <div class="row">
+  <a class="btn gold" id="waShare" target="_blank" rel="noopener" href="#"><svg><use href="#i-wa"/></svg>Share on WhatsApp</a>
+  <button class="btn" id="shareBtn">Share invitation</button>
+ </div>
+</section>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>
