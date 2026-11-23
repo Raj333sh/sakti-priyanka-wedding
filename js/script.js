@@ -10,7 +10,7 @@
     reception: { name: 'Reception', date: '20261213', next: '20261214', note: 'Reception – Dinner from 7:30 PM onwards' },
   };
   const LOCATION = 'SR CROWN, Cuttack Puri Bypass Road, Bhubaneswar, Odisha, India';
-  const SHARE_TEXT = 'You are cordially invited to the wedding of Priyanka & Sakti – 12th & 13th December 2026 at SR CROWN, Bhubaneswar.';
+  const SHARE_TEXT = 'You are cordially invited to the wedding of Sakti & Priyanka – 12th & 13th December 2026 at SR CROWN, Bhubaneswar.';
 
   function toast(msg) {
     const t = $('#toast'); t.textContent = msg; t.classList.add('show');
