@@ -2,8 +2,7 @@
 
 Plain HTML + CSS + vanilla JavaScript. No build step.
 
-## Run locally
-Double-click `index.html`, or run `python3 -m http.server 8000` and open http://localhost:8000.
+Website Link: https://raj333sh.github.io/sakti-priyanka-wedding/
 
 ## Photographs (`assets/images/`)
 - `couple-portrait-night.jpg` – hero
