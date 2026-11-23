@@ -140,7 +140,7 @@
   const wa = $('#waShare');
   wa.href = 'https://wa.me/?text=' + encodeURIComponent(SHARE_TEXT + '\n' + pageUrl());
   $('#shareBtn').addEventListener('click', async () => {
-    const data = { title: 'Priyanka & Sakti – Wedding Invitation', text: SHARE_TEXT, url: pageUrl() };
+    const data = { title: 'Sakti & Priyanka – Wedding Invitation', text: SHARE_TEXT, url: pageUrl() };
     try {
       if (navigator.share) { await navigator.share(data); return; }
       throw new Error('no share');
